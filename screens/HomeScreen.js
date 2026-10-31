@@ -14,10 +14,9 @@ import { Ionicons } from '@expo/vector-icons';
 import { TICKETS_DATA, COLORS, width } from '../config';
 
 const SECTOR_ORDER = [
-  'bts-arquibancada',
-  'bts-cadeira-inferior',
-  'bts-pista',
-  'bts-cadeira-superior',
+  'bts-cadeira-inferior-01',
+  'bts-cadeira-inferior-02',
+  'bts-cadeira-inferior-03',
 ];
 
 const FEATURED_TICKETS = SECTOR_ORDER.map((id) =>

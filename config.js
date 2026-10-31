@@ -32,7 +32,7 @@ export const COLORS = {
 // DADOS
 export const TICKETS_DATA = [
   {
-    id: 'bts-pista',
+    id: 'bts-cadeira-inferior-02',
     eventTitle: "BTS WORLD TOUR 'ARIRANG'",
     subTitle: "31/10/26 - MorumBis",
     venue: "MorumBis",
@@ -42,23 +42,23 @@ export const TICKETS_DATA = [
     image: require('./assets/BTS-clean.png'),
     sortDate: "2026-10-31",
     fullDate: "31/10/2026",
-    section: "Pista",
-    gate: "Portões: 5A e 5B",
+    section: "Cadeira Inferior",
+    gate: "Portões: 17A e 17B",
     rowInfo: "Não numerado",
     open: "16:00",
     start: "20:00",
     headerDate: "31/outubro",
     headerDay: "Sábado",
     headerCategory: "INTEIRA",
-    headerSection: "PISTA",
-    headerGates: "PORTÕES 5A E 5B",
+    headerSection: "CADEIRA INFERIOR",
+    headerGates: "PORTÕES 17A E 17B",
     ticketsList: [
-      { priceInfo: "(R) Inteira - R$ 890", qrCodeBase: "BTS-ARIRANG-PISTA-01", titular: "Jeferson Rodrigues De Santana Santos" },
-      { priceInfo: "(R) Inteira - R$ 890", qrCodeBase: "BTS-ARIRANG-PISTA-02", titular: "Jeferson Rodrigues De Santana Santos" }
+      { priceInfo: "(R) Inteira - R$ 1080", qrCodeBase: "BTS-ARIRANG-CADEIRA-02-01", titular: "Jeferson Rodrigues De Santana Santos" },
+      { priceInfo: "(R) Inteira - R$ 1080", qrCodeBase: "BTS-ARIRANG-CADEIRA-02-02", titular: "Jeferson Rodrigues De Santana Santos" }
     ]
   },
   {
-    id: 'bts-cadeira-inferior',
+    id: 'bts-cadeira-inferior-01',
     eventTitle: "BTS WORLD TOUR 'ARIRANG'",
     subTitle: "31/10/26 - MorumBis",
     venue: "MorumBis",
@@ -86,56 +86,28 @@ export const TICKETS_DATA = [
     ]
   },
   {
-    id: 'bts-cadeira-superior',
+    id: 'bts-cadeira-inferior-03',
     eventTitle: "BTS WORLD TOUR 'ARIRANG'",
     subTitle: "31/10/26 - MorumBis",
     venue: "MorumBis",
-    countText: "3 ingressos",
-    ticketQuantity: 3,
+    countText: "1 ingresso",
+    ticketQuantity: 1,
     dateText: "Sábado 31 20:00hs",
     image: require('./assets/BTS-clean.png'),
     sortDate: "2026-10-31",
     fullDate: "31/10/2026",
-    section: "Cadeira Superior",
-    gate: "Portões: 05 e 16",
+    section: "Cadeira Inferior",
+    gate: "Portões: 17A e 17B",
     rowInfo: "Não numerado",
     open: "16:00",
     start: "20:00",
     headerDate: "31/outubro",
     headerDay: "Sábado",
     headerCategory: "INTEIRA",
-    headerSection: "CADEIRA SUPERIOR",
-    headerGates: "PORTÕES 05 E 16",
+    headerSection: "CADEIRA INFERIOR",
+    headerGates: "PORTÕES 17A E 17B",
     ticketsList: [
-      { priceInfo: "(R) Inteira - R$ 980", qrCodeBase: "BTS-ARIRANG-SUPERIOR-01", titular: "Jeferson Rodrigues De Santana Santos" },
-      { priceInfo: "(R) Inteira - R$ 980", qrCodeBase: "BTS-ARIRANG-SUPERIOR-02", titular: "Jeferson Rodrigues De Santana Santos" },
-      { priceInfo: "(R) Inteira - R$ 980", qrCodeBase: "BTS-ARIRANG-SUPERIOR-03", titular: "Jeferson Rodrigues De Santana Santos" }
-    ]
-  },
-  {
-    id: 'bts-arquibancada',
-    eventTitle: "BTS WORLD TOUR 'ARIRANG'",
-    subTitle: "31/10/26 - MorumBis",
-    venue: "MorumBis",
-    countText: "4 ingressos",
-    ticketQuantity: 4,
-    dateText: "Sábado 31 20:00hs",
-    image: require('./assets/BTS-clean.png'),
-    sortDate: "2026-10-31",
-    fullDate: "31/10/2026",
-    section: "Arquibancada",
-    gate: "Portões: 06 e 15",
-    rowInfo: "Não numerado",
-    open: "16:00",
-    start: "20:00",
-    headerDate: "31/outubro",
-    headerDay: "Sábado",
-    headerCategory: "INTEIRA",
-    headerSection: "ARQUIBANCADA",
-    headerGates: "PORTÕES 06 E 15",
-    ticketsList: [
-      { priceInfo: "(R) Inteira - R$ 680", qrCodeBase: "BTS-ARIRANG-ARQUIBANCADA-01", titular: "Jeferson Rodrigues De Santana Santos" },
-      { priceInfo: "(R) Inteira - R$ 680", qrCodeBase: "BTS-ARIRANG-ARQUIBANCADA-02", titular: "Jeferson Rodrigues De Santana Santos" }
+      { priceInfo: "(R) Inteira - R$ 1080", qrCodeBase: "BTS-ARIRANG-CADEIRA-03-01", titular: "Jeferson Rodrigues De Santana Santos" }
     ]
   }
 ];
